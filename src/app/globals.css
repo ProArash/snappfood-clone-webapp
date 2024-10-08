@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	background-color: theme('colors.gray.950');
+	color: theme('colors.gray.100');
+  font-family: iransans;
+}
+
+@font-face {
+  font-family: iransans ;
+  src: url("../assets/iransans.ttf");
+}
+
+::-webkit-scrollbar {
+  background-color: theme("colors.gray.800");
+  width: 8px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: theme("colors.blue.300");
+  border-radius: 15px;
+}
